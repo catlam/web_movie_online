@@ -1,0 +1,44 @@
+{
+  "name": "movie_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catlamm/movie_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catlamm/movie_web/issues"
+  },
+  "homepage": "https://github.com/catlamm/movie_web#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "8.15.0",
+    "axios": "^1.12.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-async-handler": "^1.2.0",
+    "firebase-admin": "^12.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.2",
+    "morgan": "^1.10.1",
+    "movie_web": "file:",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "uuid-v4": "^0.1.0"
+  }
+}
